@@ -3,10 +3,10 @@ package reader
 import (
 	"testing"
 
+	"github.com/j-ole/twin"
 	"github.com/walles/moor/v2/internal/linemetadata"
 	"github.com/walles/moor/v2/internal/search"
 	"github.com/walles/moor/v2/internal/textstyles"
-	"github.com/walles/moor/v2/twin"
 	"gotest.tools/v3/assert"
 )
 

@@ -4,10 +4,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
+	"github.com/j-ole/twin"
 	"github.com/walles/moor/v2/internal/linemetadata"
 	"github.com/walles/moor/v2/internal/search"
 	"github.com/walles/moor/v2/internal/textstyles"
-	"github.com/walles/moor/v2/twin"
 )
 
 type Line struct {

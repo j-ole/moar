@@ -3,8 +3,8 @@ package internal
 import (
 	"testing"
 
+	"github.com/j-ole/twin"
 	"github.com/walles/moor/v2/internal/reader"
-	"github.com/walles/moor/v2/twin"
 	"gotest.tools/v3/assert"
 )
 

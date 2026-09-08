@@ -3,9 +3,9 @@ package internal
 import (
 	"strconv"
 
+	"github.com/j-ole/twin"
 	log "github.com/sirupsen/logrus"
 	"github.com/walles/moor/v2/internal/linemetadata"
-	"github.com/walles/moor/v2/twin"
 )
 
 type PagerModeGotoLine struct {

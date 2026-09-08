@@ -3,11 +3,13 @@ package internal
 import (
 	"fmt"
 
+	"github.com/j-ole/twin"
 	log "github.com/sirupsen/logrus"
+
 	"github.com/walles/moor/v2/internal/linemetadata"
+	"github.com/walles/moor/v2/internal/ptr"
 	"github.com/walles/moor/v2/internal/search"
 	"github.com/walles/moor/v2/internal/textstyles"
-	"github.com/walles/moor/v2/twin"
 )
 
 type PagerModeViewing struct {
@@ -185,14 +187,14 @@ func (m PagerModeViewing) onRune(char rune) {
 		p.search.Clear()
 
 		// Searchers want to scan the whole file, start reading as much as we can
-		p.setTargetLine(new(linemetadata.IndexMax()))
+		p.setTargetLine(ptr.To(linemetadata.IndexMax()))
 
 	case '?':
 		p.mode = NewPagerModeSearch(p, SearchDirectionBackward, p.scrollPosition)
 		p.search.Clear()
 
 		// Searchers want to scan the whole file, start reading as much as we can
-		p.setTargetLine(new(linemetadata.IndexMax()))
+		p.setTargetLine(ptr.To(linemetadata.IndexMax()))
 
 	case '&':
 		if !p.isShowingHelp {

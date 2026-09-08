@@ -3,8 +3,8 @@
 package internal
 
 import (
+	"github.com/j-ole/twin"
 	log "github.com/sirupsen/logrus"
-	"github.com/walles/moor/v2/twin"
 )
 
 type PagerModeInfo struct {

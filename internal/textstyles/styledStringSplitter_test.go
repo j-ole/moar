@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/walles/moor/v2/twin"
+	"github.com/j-ole/twin"
 	"gotest.tools/v3/assert"
 )
 

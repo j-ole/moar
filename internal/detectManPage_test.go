@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/j-ole/twin"
 	log "github.com/sirupsen/logrus"
 	"github.com/walles/moor/v2/internal/reader"
-	"github.com/walles/moor/v2/twin"
 	"gotest.tools/v3/assert"
 )
 

@@ -6,9 +6,11 @@ import (
 	"strings"
 
 	"github.com/alecthomas/chroma/v2"
+	"github.com/j-ole/twin"
 	log "github.com/sirupsen/logrus"
+
+	"github.com/walles/moor/v2/internal/ptr"
 	"github.com/walles/moor/v2/internal/textstyles"
-	"github.com/walles/moor/v2/twin"
 )
 
 // How the moor UI is styled. Set up by styleUI().
@@ -264,7 +266,7 @@ func configureHighlighting(terminalBackground *twin.Color, configureSearchHitLin
 	if plainBg != twin.ColorDefault && hitBg != twin.ColorDefault {
 		// We have two real colors. Mix them! I got to "0.2" by testing some
 		// numbers. 0.2 is visible but not too strong.
-		theme.searchHitLineBackground = new(plainBg.Mix(hitBg, 0.2))
+		theme.searchHitLineBackground = ptr.To(plainBg.Mix(hitBg, 0.2))
 
 		log.Trace("Search hit line background set to mixed color: ", *theme.searchHitLineBackground)
 	} else {

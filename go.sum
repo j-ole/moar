@@ -25,6 +25,8 @@ github.com/hexops/gotextdiff v1.0.3 h1:gitA9+qJrrTCsiCl7+kh75nPqQt1cx4ZkudSTLoUq
 github.com/hexops/gotextdiff v1.0.3/go.mod h1:pSWU5MAI3yDq+fZBTazCSJysOMbxWL1BSow5/V2vxeg=
 github.com/j-ole/twin v0.0.0-20260908053903-d3441930720a h1:Cj3h1oquts+a+XpvXJmkZlI7JwrX5jlZKB/UNG1ILGY=
 github.com/j-ole/twin v0.0.0-20260908053903-d3441930720a/go.mod h1:XVt5nnMTTavBkz60ot2q6X4cV6hCQ11w6JOgzECeXBI=
+github.com/j-ole/twin v0.0.0-20260917180745-e0d79e82336e h1:aaAFxPvaS+0H6DGh38c+WxIWWHYW/Th8mL/zwQtEcvQ=
+github.com/j-ole/twin v0.0.0-20260917180745-e0d79e82336e/go.mod h1:XVt5nnMTTavBkz60ot2q6X4cV6hCQ11w6JOgzECeXBI=
 github.com/klauspost/compress v1.19.1 h1:VsB4HPswih7mmZ8WleSFQ75c/Ui1M4trX5oAsJnhSlk=
 github.com/klauspost/compress v1.19.1/go.mod h1:cwPg85FWrGar70rWktvGQj8/hthj3wpl0PGDogxkrSQ=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

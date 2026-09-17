@@ -3,7 +3,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/walles/twin"
+	"github.com/j-ole/twin"
 	"gotest.tools/v3/assert"
 )
 

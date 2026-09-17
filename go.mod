@@ -16,7 +16,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-enry/go-enry/v2 v2.9.6
 	github.com/google/go-cmp v0.7.0
-	github.com/j-ole/twin v0.0.0-20260908053903-d3441930720a
+	github.com/j-ole/twin v0.0.0-20260917180745-e0d79e82336e
 	github.com/klauspost/compress v1.19.1
 	github.com/rivo/uniseg v0.4.7
 	github.com/sirupsen/logrus v1.9.4
